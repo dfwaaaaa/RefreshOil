@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penjemputan - RefreshOil</title>
+    <link rel="stylesheet" href="penjemputan.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="logo">
+                <img src="/api/placeholder/150/40" alt="RefreshOil">
+            </div>
+            <nav>
+                <a href="home.html" class="menu-item">
+                    <i><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" id="home">
+                        <path d="M23.121,9.069,15.536,1.483a5.008,5.008,0,0,0-7.072,0L.879,9.069A2.978,2.978,0,0,0,0,11.19v9.817a3,3,0,0,0,3,3H21a3,3,0,0,0,3-3V11.19A2.978,2.978,0,0,0,23.121,9.069ZM15,22.007H9V18.073a3,3,0,0,1,6,0Zm7-1a1,1,0,0,1-1,1H17V18.073a5,5,0,0,0-10,0v3.934H3a1,1,0,0,1-1-1V11.19a1.008,1.008,0,0,1,.293-.707L9.878,2.9a3.008,3.008,0,0,1,4.244,0l7.585,7.586A1.008,1.008,0,0,1,22,11.19Z"></path>
+                      </svg>
+                    </i>
+                    Dashboard
+                </a>
+                <a href="#" class="menu-item active">
+                    <i>🚛</i>
+                    Penjemputan
+                </a>
+                <a href="#" class="menu-item">
+                    <i>🎁</i>
+                    Reward
+                </a>
+                <a href="#" class="menu-item">
+                    <i>📅</i>
+                    Riwayat
+                </a>
+                <a href="#" class="menu-item">
+                    <i>📚</i>
+                    Edukasi
+                </a>
+                <a href="#" class="menu-item">
+                    <i>👤</i>
+                    Profil
+                </a>
+                <a href="#" class="menu-item">
+                    <i>❓</i>
+                    Butuh Bantuan?
+                </a>
+                <a href="#" class="menu-item">
+                    <i>🚪</i>
+                    Keluar
+                </a>
+            </nav>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <div class="service-notice">
+                Saat ini layanan hanya tersedia untuk wilayah Kab. Bandung dan<br>
+                operasional pada Senin-Jum'at pukul 08.00 s/d 18.00
+            </div>
+
+            <!-- Price Card -->
+            <div class="card price-card">
+                <div class="price-info">
+                    <div class="price-label">Biaya Kirim</div>
+                    <div class="price">Rp 2.999</div>
+                    <div class="price-label">Per Liter</div>
+                </div>
+                <div class="points-info">
+                    0.5 Liter = 3 Poin
+                </div>
+            </div>
+
+            <!-- Oil Input Section -->
+            <div class="oil-input-section">
+                <div class="card">
+                    <div class="important-notice">
+                        <h4>PENTING:</h4>
+                        <p>Gunakan botol/wadah yang memiliki takaran liter jelas untuk memastikan takaran minyak yang tepat.</p>
+                    </div>
+                    <div class="oil-input">
+                        <label>Liter Minyak</label>
+                        <input type="text" placeholder="Cth: 1 atau 0,5">
+                    </div>
+                </div>
+                <div class="card photo-upload-card">
+                    <i>📷</i>
+                    <p>Tambahkan Foto Limbah</p>
+                </div>
+            </div>
+
+            <!-- Address Card -->
+            <div class="card address-card">
+                <h3>Alamat Penjemputan</h3>
+                <div style="position: relative;">
+                    <i class="location-icon">📍</i>
+                    <input type="text" placeholder="Ketik lokasi jemput">
+                </div>
+                <div style="position: relative;">
+                    <i class="location-icon">📍</i>
+                    <input type="text" placeholder="Pilih lewat peta" readonly>
+                </div>
+                <div class="location-details">
+                    <h5>Detail lokasi</h5>
+                    <p>Cth: Jl. Adhyaksa 5</p>
+                    <h5>Patokan</h5>
+                    <p>Cth: Sebelah masjid/Depan warung</p>
+                </div>
+            </div>
+
+            <!-- Time Slots -->
+            <div class="card">
+                <div class="time-slots">
+                    <div class="time-slot">Pagi (08.00-11.00)</div>
+                    <div class="time-slot">Siang (13.00-15.00)</div>
+                    <div class="time-slot">Sore (15.30-18.00)</div>
+                </div>
+            </div>
+
+            <!-- Payment Details -->
+            <div class="payment-details">
+                <h3>Detail Pembayaran</h3>
+                <div class="payment-row">
+                    <span>Biaya Kirim /1 Liter</span>
+                    <span>-</span>
+                </div>
+                <div class="payment-row">
+                    <span>Jumlah Liter</span>
+                    <span>-</span>
+                </div>
+                <div class="payment-row payment-total">
+                    <span>Total</span>
+                    <span>-</span>
+                </div>
+                <button class="promo-button">
+                    <i>💡</i>
+                    Kamu bisa hemat nih...
+                    <span style="margin-left: auto;">Pasang</span>
+                </button>
+                <button class="continue-button">Lanjut</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <title>Dashboard RefreshOil</title>
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="logo">
+                <img src="/gambar/logo.png" alt="RefreshOil">
+            </div>
+            <nav>
+                <a href="home.html" class="menu-item active">
+                    <i><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" id="home">
+                        <path d="M23.121,9.069,15.536,1.483a5.008,5.008,0,0,0-7.072,0L.879,9.069A2.978,2.978,0,0,0,0,11.19v9.817a3,3,0,0,0,3,3H21a3,3,0,0,0,3-3V11.19A2.978,2.978,0,0,0,23.121,9.069ZM15,22.007H9V18.073a3,3,0,0,1,6,0Zm7-1a1,1,0,0,1-1,1H17V18.073a5,5,0,0,0-10,0v3.934H3a1,1,0,0,1-1-1V11.19a1.008,1.008,0,0,1,.293-.707L9.878,2.9a3.008,3.008,0,0,1,4.244,0l7.585,7.586A1.008,1.008,0,0,1,22,11.19Z"></path>
+                      </svg>
+                    </i>
+                    Dashboard
+                </a>
+                <a href="penjemputan.html" class="menu-item">
+                    <i>🚛</i>
+                    Penjemputan
+                </a>
+                <a href="#" class="menu-item">
+                    <i>🎁</i>
+                    Reward
+                </a>
+                <a href="#" class="menu-item">
+                    <i>📅</i>
+                    Riwayat
+                </a>
+                <a href="#" class="menu-item">
+                    <i>📚</i>
+                    Edukasi
+                </a>
+                <a href="#" class="menu-item">
+                    <i>👤</i>
+                    Profil
+                </a>
+                <a href="#" class="menu-item">
+                    <i>❓</i>
+                    Butuh Bantuan?
+                </a>
+                <a href="#" class="menu-item">
+                    <i>🚪</i>
+                    Keluar
+                </a>
+            </nav>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Header -->
+            <div class="header">
+                <div class="search-bar">
+                    <input type="text" placeholder="Cari disini yaa...">
+                    <i>🔍</i>
+                </div>
+                <div class="profile">
+                    <div class="profile-pic"></div>
+                    <div class="profile-info">
+                        <strong>Rifky Kartika</strong>
+                        <div>Bisnis</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dashboard Header -->
+            <div class="dashboard-header">
+                <div class="date-display">
+                    <div class="date-number">30</div>
+                    <div class="date-info">
+                        <div>Kamis,</div>
+                        <div>September</div>
+                    </div>
+                </div>
+                <a href="#" class="penjemputan-button">
+                    <i>🚛</i>
+                    Penjemputan
+                </a>
+            </div>
+
+            <!-- Stats Grid -->
+            <div class="stats-container">
+                <div class="stat-card progress-card">
+                    <div>
+                        <h3>13 Hari</h3>
+                        <p>109 Jam 23 Menit</p>
+                    </div>
+                    <div class="progress-dots">
+                        <!-- Add 12 dots here -->
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot empty"></span>
+                        <!-- ... repeat for remaining dots -->
+                    </div>
+                </div>
+                
+                <div class="stat-card">
+                    <h3>Total Poin</h3>
+                    <div class="points">15,000</div>
+                    <button class="tukar-button">Tukar</button>
+                </div>
+
+                <div class="stat-card">
+                    <h3>Total Minyak</h3>
+                    <div class="oil-meter">
+                        <div class="meter-arc"></div>
+                        <div class="meter-value">10 Liter</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- News Section -->
+            <div class="news-section">
+                <div class="section-header">
+                    <h2>Berita Terbaru</h2>
+                    <a href="#" class="view-all">
+                        Lihat Semua
+                        <i>→</i>
+                    </a>
+                </div>
+                <div class="news-grid">
+                    <!-- News Card 1 -->
+                    <div class="news-card">
+                        <img src="/api/placeholder/400/200" alt="News Image" class="news-image">
+                        <div class="news-content">
+                            <h3 class="news-title">Awas! Harga Minyak Goreng Diramal Bakal Naik Terus, Ini Penyebabnya</h3>
+                            <span class="news-tag">BERITA</span>
+                        </div>
+                    </div>
+                    <!-- Repeat news cards -->
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
